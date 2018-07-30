@@ -1,7 +1,7 @@
 from django.utils import timezone
+from blog.templates.blog.forms import PostForm
 from .models import Post
 from django.shortcuts import render, get_object_or_404, redirect
-from .forms import PostForm
 
 
 # Create your views here.
